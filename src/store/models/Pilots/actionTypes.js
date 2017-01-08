@@ -1,0 +1,7 @@
+export const CREATE_PILOT = 'CREATE_PILOT'
+export const JOIN_COMPANY = 'JOIN COMPANY'
+export const ASSIGN_MECH_TO_PILOT = 'ASSIGN_MECH_TO_PILOT'
+export const CHANGE_SKILL = 'CHANGE_SKILL'
+export const CHANGE_ROLE = 'CHANGE_ROLE'
+export const CHANGE_STATUS = 'CHANGE_STATUS'
+export const REMOVE_PILOT = 'REMOVE_PILOT'

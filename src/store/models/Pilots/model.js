@@ -14,8 +14,8 @@ export type Pilot = {
   skill: Skill,
   role: Role,
   mech?: number,
-  force?: number,
-  company?: number
+  force?: string,
+  company?:string
 }
 
 export default class Pilot extends Model {
@@ -26,6 +26,4 @@ export default class Pilot extends Model {
 
 Pilot.fields = {
   mech: oneToOne('Battlemech'),
-  force: fk('Lance')
-  company: fk('Company')
 }
